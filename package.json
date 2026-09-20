@@ -1,0 +1,21 @@
+{
+  "name": "ms-inmylanguage",
+  "version": "1.0.0",
+  "description": "Microservice de traducao",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jhan10/Ms-InMyLanguage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Jhan10/Ms-InMyLanguage/issues"
+  },
+  "homepage": "https://github.com/Jhan10/Ms-InMyLanguage#readme"
+}
