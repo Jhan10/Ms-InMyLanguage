@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="http://localhost:4602/UI/style.css">
+    <title>Inserir Expressão</title>
+</head>
+<body>
+    <h1>Inserir Expressão</h1>
+    <div>
+        <label for="expression">Expressão:</label>
+        <textarea id="expression" name="expression"></textarea>
+        <select name="select_target_language" id="select_target_language">
+            <option value="PT">Português</option>
+        </select>
+        <input id="btn-expression-insert" type="button" value="Trad">
+        <a href="/UI">Voltar</a>
+
+        <div id="dv_traducao">
+            <label for="traducao">Tradução:</label>
+            <span id="sp_traducao"></span>
+            <span id="sp_origem_traducao"></span>
+        </div>
+    </div>
+    <script src="http://localhost:4602/UI/script.js"></script>
+</body>
+</html>

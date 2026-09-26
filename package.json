@@ -4,7 +4,8 @@
   "description": "Microservice de traducao",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node api/index.js",
+    "test": "echo testing ms-inmylanguage"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/Jhan10/Ms-InMyLanguage/issues"
   },
-  "homepage": "https://github.com/Jhan10/Ms-InMyLanguage#readme"
+  "homepage": "https://github.com/Jhan10/Ms-InMyLanguage#readme",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.3",
+    "express": "^5.2.1",
+    "path": "^0.12.7"
+  }
 }

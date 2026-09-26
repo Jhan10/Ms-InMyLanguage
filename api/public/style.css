@@ -1,0 +1,9 @@
+#dv_traducao{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+    min-height: 100px;
+    margin-top: 50px;
+}
